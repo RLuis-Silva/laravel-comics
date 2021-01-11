@@ -4,8 +4,56 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 40px;
+}
+
+.general-hero {
+  height: 390px;
+  background-color: lightblue;
+  background-size: cover;
+  background-position: center;
+}
+
+.comics {
+  background-color: #1c1c1c;
+  padding-bottom: 40px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.wrap-home .comics .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-home .comics .container .box-comic {
+  flex-basis: calc(100% / 5);
+  margin-top: 30px;
+}
+
+.lista-comics .box-comic ul {
+  list-style: none;
+}
+
+.box-comic ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  margin-top: 40px;
+  padding: 10px 40px;
+  background-color: #0282f9;
+  border: none;
+  color: white;
+  font-weight: 800;
 }
 

@@ -1,0 +1,31 @@
+
+.general-hero{
+    height: 390px;
+    // background-image: url("../img/bg-hero-home.jpg");
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+// sezione COMICS
+.comics{
+    background-color: $colore-sfondo1;
+    padding-bottom: 40px;
+    font-size: $font-size2;
+    text-align: center;
+}
+
+.wrap-home .comics .container {
+    // background-color: lightblue;
+    display: flex;
+    // flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wrap-home .comics .container .box-comic {
+    // background-color: grey;
+    flex-basis: calc(100% / 5);
+    margin-top: 30px;
+}

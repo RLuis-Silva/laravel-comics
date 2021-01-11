@@ -1,0 +1,20 @@
+// .box-comic
+
+.lista-comics .box-comic ul{
+    list-style: none;
+}
+
+.box-comic ul li a{
+    text-decoration: none;
+    color: $colore-testo-2;
+}
+
+
+button{
+    margin-top: 40px;
+    padding: 10px 40px;
+    background-color: $colore-sfondo2;
+    border: none;
+    color: $colore-testo-2;
+    font-weight: 800;
+}
