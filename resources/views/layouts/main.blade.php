@@ -5,18 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <!-- Fonts -->
          <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+         <link rel="stylesheet" href=" {{asset('css/app.css')}} ">
         <title>Laravel</title>
     </head>
     <body>
-        <header class="main-header">
-            QUI HEADER
-        </header>
+       
+       
+        {{-- includo la sezione header --}}
+        @include('partials/header')
 
-        <main>
-            {{-- QUI MAIN CONTENUTO --}}
-            @yield('content')
-        </main>
-
-        <footer class="main-footer">QUI FOOTER</footer>
+        
+        {{-- QUI MAIN CONTENUTO --}}
+        @yield('content')
+        
+        
+         {{-- includo la sezione footer --}}
+        @include('partials/footer')
+        
+        
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
