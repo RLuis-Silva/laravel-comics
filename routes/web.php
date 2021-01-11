@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
+* HOMEPAGE
+**/
 Route::get('/', function () {
 
     // prendo lista comics
@@ -25,4 +28,6 @@ Route::get('/', function () {
 
     // la scritta del secondo parametro è come se lo scrivessi così: ['comics'] => $comics
     return view('home', compact('comics'));
-});
+}) ->name('home');;
+
+// Route::get('/', 'HomeController@index')-> name('home');
