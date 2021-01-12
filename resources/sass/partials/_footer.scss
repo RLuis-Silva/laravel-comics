@@ -1,10 +1,12 @@
 .main-footer{
-    color: $colore-testo-main;
+    // color: $colore-testo-main;
+    // background-image: url('../img/footer-bg.jpg');
     background-color: $colore-sfondo1;
     color: $colore-testo-2;
     padding: 40px 0;
     // font-size: $font-size2;
     font-size: 14px;
+    padding-bottom: 0;
 }
 
 h4{
@@ -41,4 +43,32 @@ footer ul li a{
 .termini a{
     color: $colore-sfondo2;
     text-decoration: none;
+}
+
+.barra-fondo{
+    background-color: grey;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.barra-fondo .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    // justify-content: space-between;
+    background-color: violet;
+    flex-basis: 400px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testo{
+    margin-right: 20px;
+}
+.lista-social ul{
+    display: flex;
+    justify-content: center;
+    background-color: green;
 }

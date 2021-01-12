@@ -106,11 +106,11 @@ ul li a:last-child {
 }
 
 .main-footer {
-  color: #1c1c1c;
   background-color: #1c1c1c;
   color: white;
   padding: 40px 0;
   font-size: 14px;
+  padding-bottom: 0;
 }
 
 h4 {
@@ -147,5 +147,34 @@ footer ul li a {
 .termini a {
   color: #0282f9;
   text-decoration: none;
+}
+
+.barra-fondo {
+  background-color: grey;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.barra-fondo .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  background-color: violet;
+  flex-basis: 400px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testo {
+  margin-right: 20px;
+}
+
+.lista-social ul {
+  display: flex;
+  justify-content: center;
+  background-color: green;
 }
 

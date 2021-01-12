@@ -70,4 +70,27 @@
 
         </div>
     </div>
+    <div class="barra-fondo">
+        <div class="container">
+            <div class="btn">
+                <button>SIGN-UP NOW!</button>
+            </div>
+
+            <div class="social">
+                <div class="testo">
+                    FOLLOW US
+                </div>
+                <div class="lista-social">
+                    <ul>
+                        <li><a href="">fb</a></li>
+                        <li><a href="">twitter</a></li>
+                        <li><a href="">youtube</a></li>
+                        <li><a href="">print</a></li>
+                        <li><a href="">youtube</a></li>
+                        <li><a href="">youtube</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+    </div>
 </footer>
