@@ -9,7 +9,7 @@ class ComicController extends Controller
     public function show($id){
         // return 'detail page for id:' . $id;
         $comics = config('comics');
-        dd($comics);
+        // dd($comics);
         
         /**
         * Get specific comic by ID
@@ -20,8 +20,8 @@ class ComicController extends Controller
                 $comic = $item;
             }
         }
-        dd($comic);
+        // dd($comic);
 
-        return view('');
+        return view('comic-detail', compact('comic'));
     }  
 }
