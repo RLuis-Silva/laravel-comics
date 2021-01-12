@@ -17,7 +17,7 @@
                         @foreach ($comics as $comic)
                             <div class="box-comic">
                                 <ul>
-                                    <li><a href=""><img src="{{$comic['image']}}" alt=""></a></li>
+                                    <li><a href="{{route('comic-detail', $comic['id'])}}"><img src="{{$comic['image']}}" alt=""></a></li>
                                     <li><a href=""><h3>{{$comic['title']}}</h3></a></li>
                                 </ul>
                             </div>
