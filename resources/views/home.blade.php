@@ -27,6 +27,46 @@
                 <button>LOAD MORE</button>
             </div>
         </section>
+
+        <!-- sezione sotto-lista-->
+        <section class="sotto-lista">
+                <div class="container">
+                    <div class="lista-blu">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="{{asset('img/digital.png')}}" alt="tablet">
+                                    <h6>DIGITAL COMICS</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="{{asset('img/shop.png')}}" alt="shop">
+                                    <h6>DC MERCHANDISE</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="{{asset('img/subscription.png')}}" alt="subscription">
+                                    <h6>SUBSCRIPTION</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="{{asset('img/locator.png')}}" alt="locator">
+                                    <h6>COMIC SHOP LOCATOR</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="{{asset('img/locator.png')}}" alt="power visa">
+                                    <h6>DC POWER VISA</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
         
 
 

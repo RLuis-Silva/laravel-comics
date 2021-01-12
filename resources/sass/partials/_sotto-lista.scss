@@ -1,0 +1,22 @@
+// sezione sotto-lista
+.sotto-lista{
+    background-color: $colore-sfondo2;
+}
+.sotto-lista .lista-blu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 40px 0;
+}
+
+ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $colore-testo-2;
+}
+
+ul li a:last-child{
+    margin-left: 10px;
+}
