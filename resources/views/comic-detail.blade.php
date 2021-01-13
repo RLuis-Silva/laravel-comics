@@ -14,13 +14,22 @@
          <!-- sezione comic in dettaglio -->
         <section class="comic-detail">
             <div class="container">
-                <h1>{{$comic['title']}}</h1>
-                <div class="prezzo">
-                    {{$comic['price']}}
+                <div class="box-comic">
+                    <h1>{{$comic['title']}}</h1>
+                    <div class="prezzo">
+                        U.S. Price: ${{$comic['price']}}
+                    </div>
+                    <div class="testo">
+                        {!! $comic['body'] !!}
+                    </div>
                 </div>
-                <div class="testo">
-                    {!! $comic['body'] !!}
-                </div>
+
+                <aside class="adv">
+                    {{-- <div class="adv-box"> --}}
+                        <h4>ADVERTISEMENT</h4>
+                        <img src="{{asset('img/adv.png')}}" alt="pubblicità">
+                    {{-- </div> --}}
+                </aside>
             </div>
         </section>
         

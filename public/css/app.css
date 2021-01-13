@@ -105,6 +105,37 @@ ul li a:last-child {
   margin-left: 10px;
 }
 
+.comic-detail .container {
+  display: flex;
+  padding: 0;
+}
+
+.box-comic {
+  flex-basis: 68%;
+  margin-right: 25px;
+  padding: 50px;
+}
+
+.box-comic h1 {
+  margin-bottom: 20px;
+}
+
+.prezzo {
+  background-color: #55ba59;
+  color: white;
+  padding: 20px;
+  width: 200px;
+}
+
+.testo {
+  margin: 20px 0;
+}
+
+.adv {
+  background-color: lightblue;
+  flex-basis: 30%;
+}
+
 .main-footer {
   background-color: #1c1c1c;
   color: white;
