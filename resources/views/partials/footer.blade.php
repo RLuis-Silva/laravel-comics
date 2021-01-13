@@ -91,9 +91,9 @@
                 </div>
                 <div class="lista-social">
                     <ul>
-                        <li><a href="">fb</a></li>
-                        <li><a href="">twitter</a></li>
-                        <li><a href="">youtube</a></li>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
                         <li><a href="">print</a></li>
                         <li><a href="">youtube</a></li>
                         <li><a href="">youtube</a></li>
