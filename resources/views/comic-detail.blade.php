@@ -27,8 +27,8 @@
                 <aside class="adv">
                     {{-- <div class="adv-box"> --}}
                         <h4>ADVERTISEMENT</h4>
-                        {{-- <img src="{{asset('img/adv.png')}}" alt="pubblicità"> --}}
-                        <img src="{{asset('img/digital.png')}}" alt="tablet">
+                        <img src="{{asset('img/adv.png')}}" alt="pubblicità">
+                        {{-- <img src="{{asset('img/digital.png')}}" alt="tablet"> --}}
                     {{-- </div> --}}
                 </aside>
             </div>

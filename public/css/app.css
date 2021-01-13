@@ -42,6 +42,7 @@ header .navbar-nav ul {
 
 .general-hero {
   height: 390px;
+  background-image: url("../img/bg-hero-home.jpg");
   background-color: lightblue;
   background-size: cover;
   background-position: center;
@@ -222,8 +223,11 @@ footer ul li a {
   background-color: green;
 }
 
-i {
-  color: black;
-  width: 30px;
+.lista-social ul li a {
+  color: white;
 }
 
+i {
+  color: red;
+  width: 20px;
+}
