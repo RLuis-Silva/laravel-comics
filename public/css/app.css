@@ -139,7 +139,6 @@ ul li a:last-child {
 .main-footer {
   background-color: #1c1c1c;
   color: white;
-  padding: 40px 0;
   font-size: 14px;
   padding-bottom: 0;
 }
@@ -153,11 +152,15 @@ h4 {
 
 .container .colonne {
   display: flex;
-  margin-bottom: 40px;
 }
 
-.container .colonna {
+.container .colonne {
   margin-right: 25px;
+}
+
+.colonna_sx {
+  display: flex;
+  padding: 40px 0;
 }
 
 ul li {
@@ -168,6 +171,16 @@ footer ul li a {
   color: #949494;
   text-decoration: none;
   padding: 4px 0;
+}
+
+.colonna_dx {
+  text-align: right;
+  width: 600px;
+  height: 400px;
+}
+
+.colonna_dx img {
+  height: 100%;
 }
 
 .termini {

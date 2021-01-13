@@ -3,7 +3,7 @@
     // background-image: url('../img/footer-bg.jpg');
     background-color: $colore-sfondo1;
     color: $colore-testo-2;
-    padding: 40px 0;
+    // padding: 40px 0;
     // font-size: $font-size2;
     font-size: 14px;
     padding-bottom: 0;
@@ -18,11 +18,16 @@ h4{
 
 .container .colonne{
     display: flex;
-    margin-bottom: 40px;
 }
 
-.container .colonna{
+.container .colonne{
     margin-right: 25px;
+}
+
+// colonna SX del FOOTER
+.colonna_sx{
+    display: flex;
+    padding: 40px 0;
 }
 
 ul li{
@@ -34,7 +39,22 @@ footer ul li a{
     padding: 4px 0;
 }
 
+// COLONNA DX DEL FOOTER
+.colonna_dx{
+    text-align: right;
+    width: 600px;
+    height: 400px;
+}
+.colonna_dx img{
+    // width: 60%;
+    height: 100%;
+    // object-fit: cover;
+}
 
+
+
+
+// SOTTO COLONNA
 .termini{
     color: $colore-testo-3;
     font-size: 14px;
